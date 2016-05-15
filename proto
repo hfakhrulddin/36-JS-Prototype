@@ -1,0 +1,19 @@
+function Employee(name)
+{
+this.name = name;
+}
+
+Employee.prototype.getname =function()
+{
+return this.name;
+
+}
+
+
+
+
+var e1 = new Employee("Hussen");
+var e2 = new Employee("Ali");
+
+document.write("E1 Name = " +e1.getname()+ "<br/>");
+document.write("E2 Name = " +e2.getname()+ "<br/>");
